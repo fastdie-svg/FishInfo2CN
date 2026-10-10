@@ -1,7 +1,7 @@
 -- Keep in sync with "## Version:" in FishInfo2CN.toc. WoW 1.12 has no
 -- GetAddOnMetadata(), so this constant cannot be read back out of the TOC and
 -- the version necessarily lives in two places. Bump both together.
-FISHINFO2_VERSION = "V10beta";
+FISHINFO2_VERSION = "V10-release";
 
 -- Localization: only Simplified Chinese (zhCN) and English are maintained.
 -- The deDE / zhTW / frFR branches were removed: every locale other than

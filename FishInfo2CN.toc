@@ -9,9 +9,11 @@
 # Keep this in sync with FISHINFO2_VERSION in Localization.lua. WoW 1.12 has
 # no GetAddOnMetadata(), so the addon cannot read its own TOC at runtime and
 # the version necessarily exists in two places. Bump both together.
-## Version: V10beta
+## Version: V10-release
 ## X-Email: wbb1977@gmail.com
 ## X-Date: 2018-12-27
+## X-Original-Date: 2018-12-27
+## X-Release-Date: 2026-10-10
 ## X-Category: MYADDONS_CATEGORY_PROFESSIONS
 ## X-Help: FISHINFO2_MYADDONS_XHELP
 FishInfo2.xml
