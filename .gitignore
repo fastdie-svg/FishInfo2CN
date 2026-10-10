@@ -1,0 +1,13 @@
+# OS / editor junk
+.DS_Store
+Thumbs.db
+desktop.ini
+*~
+*.swp
+*.swo
+.idea/
+.vscode/
+
+# Internal audit documents (not for public release)
+AUDIT_REPORT.md
+审计复核报告.md
