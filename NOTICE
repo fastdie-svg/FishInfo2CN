@@ -1,0 +1,99 @@
+FishInfo2CN — 版权归属与鸣谢
+Copyright and Attribution Notice
+================================================================================
+
+本插件是《魔兽世界》(World of Warcraft) 1.12 客户端钓鱼记录插件的简体中文
+汉化与修复版本，遵循 GNU General Public License v3.0 或更新版本
+(GPL-3.0-or-later) 发布。
+
+
+致谢原作者 / Credit to the original author
+--------------------------------------------------------------------------------
+
+  原作者 (Original author) : Bastian Pflieger (wbb)
+  联系邮箱 (Email)         : wbb1977@gmail.com
+  原作名称 (Original work) : Fish Info 2 (v10)
+  创建时间 (Created)       : 2007 年 7 月 4 日
+  最后版本 (Last upstream) : 2018 年 12 月 27 日
+
+  原作信息取自插件清单 FishInfo2CN.toc 的 `## Author:` 字段与
+  FishInfo2.lua 的文件头注释。
+
+  衷心感谢 Bastian Pflieger (wbb) 在 2007 至 2018 年间创作并长期维护
+  Fish Info 2。本插件能够存在，完全建立在他十余年的无偿劳动之上。
+  He is the author of the original addon and all credit for the
+  underlying design and implementation belongs to him.
+
+
+上游传承 / Upstream lineage
+--------------------------------------------------------------------------------
+
+  Impp's Fishing Info 1.2
+        ↓  重新实现 (remade/rewritten by Bastian Pflieger)
+  Fish Info 2 v10  (2007–2018)
+        ↓  修复 + 简体中文本地化 (this fork)
+  FishInfo2CN V10-release  (2026)
+
+
+本版本的改动 / Modifications in this fork
+--------------------------------------------------------------------------------
+
+  版权持有者 (Copyright holder) : fastdie-svg
+  年份 (Year)                   : 2026
+
+  本版本在原作基础上进行了以下工作：
+
+  1. 缺陷修复 —— 修正 1.12 客户端下的掉落信息解析错误（GetLootSlotInfo
+     返回值解构错位）、图标获取链路固化、客户端 API 缺失或抛错时缺少防御等
+     问题；
+  2. 简体中文本地化 —— 重写 Localization.lua：移除 deDE / zhTW / frFR 分支，
+     新增 zhCN 分支，非 zhCN 语言环境统一回退到英文；
+  3. 其他改进 —— 存档校验与版本号、复合键、物品超链接、登录期入口、
+     统计单遍化、命名空间等整理；并调整 FishInfo2CN.toc 的元数据。
+
+  上述改动均不改变原作的署名与授权条件。
+
+
+授权声明 / License
+--------------------------------------------------------------------------------
+
+  This program is free software: you can redistribute it and/or modify
+  it under the terms of the GNU General Public License as published by
+  the Free Software Foundation, either version 3 of the License, or
+  (at your option) any later version.
+
+  This program is distributed in the hope that it will be useful,
+  but WITHOUT ANY WARRANTY; without even the implied warranty of
+  MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+  GNU General Public License for more details.
+
+  You should have received a copy of the GNU General Public License
+  along with this program.  If not, see <https://www.gnu.org/licenses/>.
+
+  许可证完整正文见本仓库根目录的 LICENSE 文件。
+
+
+关于授权状态的说明 / Note on licensing status
+--------------------------------------------------------------------------------
+
+  据本仓库维护者所知，原版 Fish Info 2 并未附带明确的许可证文件。本仓库
+  以 GPL-3.0-or-later 发布，是维护者主动选择的授权方式，并以此明确表达对
+  原作者的署名与感谢。
+
+  如果原作者 Bastian Pflieger (wbb) 对本授权方式有任何异议，或希望采用
+  其他许可证，请通过上方邮箱或本仓库 Issue 联系，我们会立即配合调整。
+
+  To the best of the maintainer's knowledge, the original Fish Info 2 was
+  distributed without an explicit license file. This repository is released
+  under GPL-3.0-or-later as the maintainer's own choice. If the original
+  author disagrees with this licensing or prefers another license, please
+  contact us and we will adjust promptly.
+
+
+《魔兽世界》免责声明 / Disclaimer
+--------------------------------------------------------------------------------
+
+  World of Warcraft and all related assets are trademarks or registered
+  trademarks of Blizzard Entertainment, Inc. This addon is a fan-made,
+  non-commercial work and is not affiliated with, endorsed by, or
+  sponsored by Blizzard Entertainment.
